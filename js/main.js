@@ -28,21 +28,16 @@ $(document).ready(function () {
     updateProduct();
     isLoading(false);
   });
-  $("#put").click(function () {
-    isLoading(true);
-    updateProduct();
-    isLoading(false);
-  });
 
   $("#patch").click(function () {
     isLoading(true);
     updateWithPatch();
     isLoading(false);
   });
-    $("#delete").click(function () {
+
+  $("#delete").click(function () {
     isLoading(true);
     deleteProduct();
     isLoading(false);
   });
 });
-
