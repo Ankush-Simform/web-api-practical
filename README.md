@@ -18,4 +18,4 @@ Tests: Wrote scripts to auto-check for 200 OK statuses and valid JSON.
 Errors & Learnings
 Errors: Encountered 404 (wrong ID) and 415 (missing Content-Type header).
 
-Learnings: Confirmed that dummy APIs don't save data permanently (Stateless) and mastered the difference between a full update (PUT) and a partial one (PATCH).
+Learnings: Confirmed that dummy APIs don't save data permanently (Stateless) and mastered the difference between a full update (PUT) and a partial one (PATCH). 
